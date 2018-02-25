@@ -1,0 +1,10 @@
+[package]
+name = "napi-demo"
+version = "0.1.0"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+napi = "0.1.1"
+napi-derive = "0.1.1"

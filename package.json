@@ -1,0 +1,11 @@
+{
+  "name": "rust-napi-demo",
+  "version": "1.0.0",
+  "description": "rust-napi-demo",
+  "scripts": {
+    "build-lib": "cargo build --release",
+    "build-addon": "node-gyp rebuild",
+    "build": "npm run -s build-lib && npm run -s build-addon",
+    "start": "npm run build && node index"
+  }
+}
